@@ -1,4 +1,4 @@
-# simple calculator testing merge
+# simple calculator is very simple
 result = 0
 txt_result = ''
 

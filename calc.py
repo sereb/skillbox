@@ -1,4 +1,4 @@
-# simple calculator
+# simple calculator is very simple
 result = 0
 txt_result = ''
 

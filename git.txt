@@ -1,6 +1,10 @@
 git config --global user.name "Vasily Serebrennikov"
 git config --global user.email "xray-06@yandex.ru"
 git config --list - список настроек гита
+
+ssh-keygen -t ed25519 -C "sereb" - Генерация ключа
+cat имя файла ключа (ed25519.pub) - отображение ключа для вставки в git
+
 ls -la -содержимое папки
 
 git init -инициализация репозитория в папке
@@ -27,7 +31,7 @@ git push -u origin branch-name - отправка локальной ветки на сервер (на сервере 
 git stash - откладывание изменений
 git stash list - список отложенных изменений
 git stash pop - возврат изменений в обратном порядке (если отложенро несколько изменений)
-git stash drop (номер стэша) - удаление стреша с номером
+git stash drop (номер стэша) - удаление стеша с номером
 
 
 
